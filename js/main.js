@@ -289,3 +289,33 @@
 	});		
 
 })(jQuery);
+
+/*----------------------------------------------------- */
+  	/* Change Logo - Flags BR - US
+   ------------------------------------------------------- */ 
+
+function changeLogo(){
+	var lang = localStorage.getItem("lang");
+
+	if(lang == null){
+		localStorage.setItem("lang","en");
+	}if(lang == "en"){
+		localStorage.setItem("lang","br");
+	}else{
+		localStorage.setItem("lang","en");
+	}
+}
+
+function changeLang(){
+	var lang = localStorage.getItem("lang");
+
+	if(lang == "en"){		
+		$("#language").attr('lang', "en");
+		$('.logo').attr('style', null);
+		$('.logo').attr('style', 'background-image: url(../alabliuk.github.io/images/flags/us.svg); background-repeat: no-repeat;');
+	}else{
+		$("#language").attr('lang', "br");
+		$('.logo').attr('style', null);
+		$('.logo').attr('style', 'background-image: url(../alabliuk.github.io/images/flags/br.svg); background-repeat: no-repeat;');
+	}
+}

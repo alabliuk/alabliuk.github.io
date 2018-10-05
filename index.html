@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html id="language" class="no-js" lang="br"> <!--<![endif]-->
 <head>
 
    <!--- basic page needs
@@ -33,7 +33,7 @@
 
    </head>
 
-   <body id="top">
+   <body id="top" onload="changeLang();">
 
 	<!-- header 
 		================================================== -->
@@ -43,9 +43,9 @@
 				<div class="top-bar">
 					<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-					<div class="logo">
-							<a href="index.html">KARDS33</a>
-						 </div>      
+					<div class="logo" onclick="changeLogo();">
+						<a href="index.html">oi</a>
+					</div>      
 
 					<nav id="main-nav-wrap">
 						<ul class="main-navigation">
