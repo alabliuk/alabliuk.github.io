@@ -1,480 +1,575 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html id="language" class="no-js" lang="br"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html id="language" class="no-js" lang="br">
+<!--<![endif]-->
+
 <head>
 
-   <!--- basic page needs
+	<!--- basic page needs
    	================================================== -->
-   	<meta charset="utf-8">
-   	<title>Andre Leme</title>
-   	<meta name="description" content="">  
-   	<meta name="author" content="">
+	<meta charset="utf-8">
+	<title>Andre Leme</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-   <!-- mobile specific metas
+	<!-- mobile specific metas
    	================================================== -->
-   	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
- 	<!-- CSS
+	<!-- CSS
  		================================================== -->
- 		<link rel="stylesheet" href="css/base.css">  
- 		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/vendor.css">
-		<link rel="stylesheet" href="css/region.css">    
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/region.css">
 
-   <!-- script
-   	================================================== -->   
-   	<script src="js/modernizr.js"></script>
-   	<script src="js/pace.min.js"></script>
-
-   <!-- favicons
+	<!-- script
    	================================================== -->
-   	<link rel="icon" type="image/png" href="favicon.png">
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-   </head>
+	<!-- favicons
+   	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 
-   <body id="top" onload="changeLang();">
+</head>
+
+<body id="top" onload="changeLang();">
 
 	<!-- header 
 		================================================== -->
-		<header>   	
-			<div class="row">
+	<header>
+		<div class="row">
 
-				<div class="top-bar">
-					<a class="menu-toggle" href="#"><span>Menu</span></a>
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-					<div class="logo" onclick="changeLogo();">
-						<a href="index.html">oi</a>
-					</div>      
+				<div class="logo" onclick="changeLogo();">
+					<a href="index.html">oi</a>
+				</div>
 
-					<nav id="main-nav-wrap">
-						<ul class="main-navigation">
-							<div class="en">
-								<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-								<li><a class="smoothscroll" href="#about" title="">About</a></li>
-								<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>				
-								<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>	
-							</div>
-							<div class="br">
-							<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-								<li><a class="smoothscroll" href="#about" title="">Sobre</a></li>
-								<li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>				
-								<li><a class="smoothscroll" href="#contact" title="">Contato</a></li>	
-							</div>
-						</ul>
-					</nav>    		
-				</div> <!-- /top-bar --> 
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<div class="en">
+							<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+							<li><a class="smoothscroll" href="#about" title="">About</a></li>
+							<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+							<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+						</div>
+						<div class="br">
+							<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+							<li><a class="smoothscroll" href="#about" title="">Sobre</a></li>
+							<li><a class="smoothscroll" href="#resume" title="">Resumo</a></li>
+							<li><a class="smoothscroll" href="#contact" title="">Contato</a></li>
+						</div>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
 
-			</div> <!-- /row --> 		
-		</header> <!-- /header -->
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
 	<!-- intro section
 		================================================== -->
-		<section id="intro">   
+	<section id="intro">
 
-			<div class="intro-overlay"></div>	
+		<div class="intro-overlay"></div>
 
-			<div class="intro-content">
-				<div class="row">
+		<div class="intro-content">
+			<div class="row">
 
-					<div class="col-twelve">
+				<div class="col-twelve">
 
-						<h5 class="en">Hello, World.</h5>
-						<h5 class="br">Olá, Mundo.</h5>
-						<h1 class="en">I'm Andre Leme</h1>
-						<h1 class="br">Andre Leme</h1>
+					<h5 class="en">Hello, World.</h5>
+					<h5 class="br">Olá, Mundo.</h5>
+					<h1 class="en">I'm Andre Leme</h1>
+					<h1 class="br">Andre Leme</h1>
 
-						<p class="intro-position">
-							<span>Fullstack .Net Developer</span>
-						</p>
+					<p class="intro-position">
+						<span>Fullstack .Net Developer</span>
+					</p>
 
+					<div class="en">
 						<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					</div>
+					<div class="br">
+						<a class="button stroke smoothscroll" href="#about" title="">Sobre Mim</a>
+					</div>
 
-					</div>  
+				</div>
 
-				</div>   		 		
-			</div> <!-- /intro-content --> 
+			</div>
+		</div> <!-- /intro-content -->
 
-			<ul class="intro-social">        
-				<li><a href="https://www.linkedin.com/in/labliuk/"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="https://github.com/alabliuk"><i class="fa fa-github"></i></a></li>
-			</ul> <!-- /intro-social -->      	
+		<ul class="intro-social">
+			<li><a href="https://www.linkedin.com/in/labliuk/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/alabliuk"><i class="fa fa-github"></i></a></li>
+		</ul> <!-- /intro-social -->
 
-		</section> <!-- /intro -->
+	</section> <!-- /intro -->
 
 
-   <!-- about section
+	<!-- about section
    	================================================== -->
-   	<section id="about">  
+	<section id="about">
 
-   		<div class="row section-intro">
-   			<div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-   				<h5>About</h5>
-   				<h1>Let me introduce myself.</h1>
+				<div class="en">
+					<h5>About</h5>
+					<h1>Let me introduce myself.</h1>
+				</div>
+				<div class="br">
+					<h5>Sobre</h5>
+					<h1>Deixe-me apresentar-me.</h1>
+				</div>
 
-   				<div class="intro-info">
+				<div class="intro-info">
 
-   					<img src="images/profile-pic.jpg" alt="Profile Picture">
+					<img src="images/profile-pic.jpg" alt="Profile Picture">
 
-   					<p class="lead">Computer Engineering professional with more than 9 years of experience in IT projects. 6 years of experience as a software developer. Leadership of enterprise-wide, critical systems integrations both client side and supplier side. Knowledge of high volume transaction systems models. Team leading skills with strategic vision. Advanced knowledge of multiplatform C# language, Web Development, background processing, multi-threaded architectures, database design, SQL, .Net. Experienced in cradle-to-grave software support (code design, implementation, unit testing, deployment and sustainment).</p>
-   				</div>   			
+					<div class="en">
+					<p class="lead">Computer Engineering professional with more than 9 years of experience in IT projects. 6 years of
+						experience as a software developer. Leadership of enterprise-wide, critical systems integrations both client side
+						and supplier side. Knowledge of high volume transaction systems models. Team leading skills with strategic
+						vision. Advanced knowledge of multiplatform C# language, Web Development, background processing, multi-threaded
+						architectures, database design, SQL, .Net. Experienced in cradle-to-grave software support (code design,
+						implementation, unit testing, deployment and sustainment).</p>
+					</div>
 
-   			</div>   		
-   		</div> <!-- /section-intro -->
+					<div class="br">
+					<p class="lead">Profissional graduado em engenharia da computação com mais de 10 anos de experiência em TI, sendo 7
+						anos como desenvolvedor. Intensa vivência em integrações entre clientes efornecedores e em sistemas críticos com
+						grande volume de transações. Experiente no trabalhoem equipe com pensamento estratégico, não limitado na
+						singularidade da tarefa. Atualmenteutilizo o C# como linguagem principal para o desenvolvimento de soluções
+						robustas emultiplataforma.</p>
+					</div>
+				</div>
 
-   		<div class="row about-content">
+			</div>
+		</div> <!-- /section-intro -->
 
-   			<div class="col-six tab-full">
+		<div class="row about-content">
 
-   				<h3>Profile</h3>
-   				</p>
+			<div class="col-six tab-full">
 
-   				<ul class="info-list">
-   					<li>
-   						<strong>Fullname:</strong>
-   						<span>Andre Sposito Labliuk Leme</span>
-   					</li>
-   					<li>
-   						<strong>Birth Date:</strong>
-   						<span>January 21, 1992</span>
-   					</li>
-   					<li>
-   						<strong>Job:</strong>
-   						<span>Fullstack .NET developer</span>
-   					</li>
-   					<li>
-   						<strong>Email:</strong>
-   						<span>andrelabliuk@gmail.com</span>
-   					</li>
+				<div class="en">
+					<h3>Profile</h3>
+					</p>
 
-   				</ul> <!-- /info-list -->
+					<ul class="info-list">
+						<li>
+							<strong>Fullname:</strong>
+							<span>Andre Sposito Labliuk Leme</span>
+						</li>
+						<li>
+							<strong>Birth Date:</strong>
+							<span>January 21, 1992</span>
+						</li>
+						<li>
+							<strong>Job:</strong>
+							<span>Fullstack .NET developer</span>
+						</li>
+						<li>
+							<strong>Email:</strong>
+							<span>andrelabliuk@gmail.com</span>
+						</li>
+					</ul> <!-- /info-list -->
+				</div>
+				<div class="br">
+					<h3>Perfil</h3>
+					</p>
 
-   			</div>
+					<ul class="info-list">
+						<li>
+							<strong>Nome:</strong>
+							<span>Andre Sposito Labliuk Leme</span>
+						</li>
+						<li>
+							<strong>Aniversário:</strong>
+							<span>January 21, 1992</span>
+						</li>
+						<li>
+							<strong>Cargo:</strong>
+							<span>Fullstack .NET developer</span>
+						</li>
+						<li>
+							<strong>Email:</strong>
+							<span>andrelabliuk@gmail.com</span>
+						</li>
+					</ul> <!-- /info-list -->
+				</div>
+			</div>
 
-   			<div class="col-six tab-full">
+			<div class="col-six tab-full">
+				<div class="en">
+					<h3>Skills</h3>
+					</p>
+				</div>
+				<div class="br">
+					<h3>Habilidades</h3>
+					</p>
+				</div>
 
-   				<h3>Skills</h3>
-   				</p>
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>C#</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>SQL Server</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Git</strong>
+					</li>
+					<li>
+						<div class="progress percent50"><span>50%</span></div>
+						<strong>Javascript</strong>
+					</li>
+					<li>
+						<div class="progress percent65"><span>60%</span></div>
+						<strong>HTML5, CSS3</strong>
+					</li>
 
-   				<ul class="skill-bars">
-   					<li>
-   						<div class="progress percent80"><span>80%</span></div>
-   						<strong>C#</strong>
-   					</li>
-   					<li>
+				</ul> <!-- /skill-bars -->
 
-   						<div class="progress percent85"><span>85%</span></div>
-   						<strong>SQL Server</strong>
-   					</li>
-   					<li>
-   						<div class="progress percent85"><span>85%</span></div>
-   						<strong>Git</strong>
-   					</li>
-   					<li>
-   						<div class="progress percent50"><span>50%</span></div>
-   						<strong>Javascript</strong>
-   					</li>
-   					<li>
-   						<div class="progress percent65"><span>60%</span></div>
-   						<strong>HTML5, CSS3</strong>
-   					</li>
+			</div>
 
-   				</ul> <!-- /skill-bars -->		
+		</div>
 
-   			</div>
+		<div class="row button-section">
+			<div class="col-twelve">
+				<div class="en">
+					<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contact Me</a>
+					<a href="http://bit.ly/2N6jZcP" title="Download CV" class="button button-primary">Download CV</a>
+				</div>
+				<div class="br">
+					<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Contate Me</a>
+					<a href="http://bit.ly/2N6jZcP" title="Download CV" class="button button-primary">Download CV</a>
+				</div>
 
-   		</div>
+			</div>
+		</div>
 
-   		<div class="row button-section">
-   			<div class="col-twelve">
-   				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-   				<a href="http://bit.ly/2N6jZcP" title="Download CV" class="button button-primary">Download CV</a>
-   			</div>   		
-   		</div>
-
-   	</section> <!-- /process-->    
+	</section> <!-- /process-->
 
 
-   <!-- resume Section
+	<!-- resume Section
    	================================================== -->
-   	<section id="resume" class="grey-section">
+	<section id="resume" class="grey-section">
 
-   		<div class="row section-intro">
-   			<div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-   				<h5>Resume</h5>
-   				<h1>More of my credentials.</h1>
+				<div class="en">
+					<h5>Resume</h5>
+					<h1>More of my credentials.</h1>
+				</div>
+				<div class="br">
+					<h5>Resumo</h5>
+					<h1>Resumo da minha carreira</h1>
+				</div>
 
-   				<p class="lead"> </p>
+				<p class="lead"> </p>
 
-   			</div>   		
-   		</div> <!-- /section-intro--> 
+			</div>
+		</div> <!-- /section-intro-->
 
-   		<div class="row resume-timeline">
+		<div class="row resume-timeline">
 
-   			<div class="col-twelve resume-header">
+			<div class="col-twelve resume-header">
 
-   				<h2>Work Experience</h2>
+				<div class="en">
+					<h2>Work Experience</h2>
+				</div>
+				<div class="br">
+					<h2>Experiência</h2>
+				</div>
 
-   			</div> <!-- /resume-header -->
+			</div> <!-- /resume-header -->
 
-   			<div class="col-twelve">
+			<div class="col-twelve">
 
-   				<div class="timeline-wrap">
+				<div class="timeline-wrap">
 
-   					<div class="timeline-block">
+					<div class="timeline-block">
 
-   						<div class="timeline-ico">
-   							<i class="fa fa-briefcase"></i>
-   						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-   						<div class="timeline-header">
-   							<h3><a href="http://www.fit-tecnologia.org.br/">FIT - Flextronics Instituto de Tecnologia</a></h3>
-   							<p>Novembro 2015 - Presente</p>
-   						</div>
+						<div class="timeline-header">
+							<h3><a href="http://www.fit-tecnologia.org.br/">FIT - Flextronics Instituto de Tecnologia</a></h3>
+							<p>Novembro 2015 - Presente</p>
+						</div>
 
-   						<div class="timeline-content">
-   							<h4>Desenvolvedor .Net</h4>
-   							<p>Integralmente alocado na <a href="http://www.verifone.com.br/"><strong>Verifone</strong></a></p>
+						<div class="timeline-content">
+							<h4>Desenvolvedor .Net</h4>
+							<p>Integralmente alocado na <a href="http://www.verifone.com.br/"><strong>Verifone</strong></a></p>
 							• Modelagem de dados e aplicações</br>
 							• Deploy e manutenção de aplicações</br>
 							• Desenvolvimento de sistemas multiplataforma</br>
 							• Desenvolvimento de integrações entre fornecedores e clientes</br>
 							• Administração e desenvolvimento em banco de dados (SQL Server)</br>
-   						</div>
+						</div>
 
-   					</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-   				</p>
+					</p>
 
-   					<div class="timeline-block">
+					<div class="timeline-block">
 
-   						<div class="timeline-ico">
-   							<i class="fa fa-briefcase"></i>
-   						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-   						<div class="timeline-header">
-   							<h3><a href="http://www.fitec.org.br/pt/inicio/">FITec - Fundação para Inovações Tecnológicas</a></h3>
-   							<p>Janeiro 2015 - Novembro 2015</p>
-   						</div>
+						<div class="timeline-header">
+							<h3><a href="http://www.fitec.org.br/pt/inicio/">FITec - Fundação para Inovações Tecnológicas</a></h3>
+							<p>Janeiro 2015 - Novembro 2015</p>
+						</div>
 
-   						<div class="timeline-content">
-   							<h4>Desenvolvedor .Net</h4>
-   							<p>Integralmente alocado na <a href="http://www.verifone.com.br/"><strong>Verifone</strong></a></p>
+						<div class="timeline-content">
+							<h4>Desenvolvedor .Net</h4>
+							<p>Integralmente alocado na <a href="http://www.verifone.com.br/"><strong>Verifone</strong></a></p>
 							• Modelagem de dados e aplicações</br>
 							• Deploy e manutenção de aplicações</br>
 							• Desenvolvimento de sistemas multiplataforma</br>
 							• Desenvolvimento de integrações entre fornecedores e clientes</br>
 							• Administração e desenvolvimento em banco de dados (SQL Server)</br>
-   						</div>
+						</div>
 
-   					</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-				</p>
+					</p>
 
-   					<div class="timeline-block">
+					<div class="timeline-block">
 
-   						<div class="timeline-ico">
-   							<i class="fa fa-briefcase"></i>
-   						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-briefcase"></i>
+						</div>
 
-   						<div class="timeline-header">
-   							<h3><a href="http://www.tds-enterprise.com/">TDS Enterprise</a></h3>
-   							<p>Novembro 2011 - Janeiro 2015</p>
-   						</div>
+						<div class="timeline-header">
+							<h3><a href="http://www.tds-enterprise.com/">TDS Enterprise</a></h3>
+							<p>Novembro 2011 - Janeiro 2015</p>
+						</div>
 
-   						<div class="timeline-content">
-   							<h4>Cloud e Virtualização para SAP Business One e SAP HANA</h4>
-   							<p><code>Setembro 2014 - Janeiro 2015</code></p>
+						<div class="timeline-content">
+							<h4>Cloud e Virtualização para SAP Business One e SAP HANA</h4>
+							<p><code>Setembro 2014 - Janeiro 2015</code></p>
 							• Configuração e Implementação SAP Hana</br>
 							• Configuração e Implementação SAP CCC (Cloud Control Center)</br>
 							• Instalação, configuração e administração Linux SUSE para ambiente SAP Hana</br>
 							• Criação e Administração de ambientes virtuais - VMware Sphere, Oracle Virtual Box e Hyper-V</br>
-   						</div>
-   					</p>
+						</div>
+						</p>
 
-   						<div class="timeline-content">
-   							<h4>Desenvolvedor .Net e SDK SAP Business One</h4>
-   							<p><code>Junho 2013 - Janeiro 2015</code></p>
+						<div class="timeline-content">
+							<h4>Desenvolvedor .Net e SDK SAP Business One</h4>
+							<p><code>Junho 2013 - Janeiro 2015</code></p>
 							• Desenvolvimento de integrações</br>
 							• Desenvolvimento de Add-ons SAP Business One</br>
 							• Desenvolvimento e Manutenção de Sistemas Internos</br>
 							• Desenvolvimento de relatórios em Crystal Reports e SQL</br>
-   						</div>
-   					</p>
+						</div>
+						</p>
 
-   						<div class="timeline-content">
-   							<h4>Suporte SAP Business One</h4>
-   							<p><code>Novembro 2011 - Maio 2013</code></p>
+						<div class="timeline-content">
+							<h4>Suporte SAP Business One</h4>
+							<p><code>Novembro 2011 - Maio 2013</code></p>
 							• Desenvolvimento de relatórios em Crystal Reports e SQL</br>
 							• Instalação e atualização do SAP Business One e Add-Ons</br>
 							• Implementação e configuração de rotinas SAP Business One</br>
 							• Desenvolvimento de templates para importação de dados em massa</br>
-							• Abertura de chamados junto aos Parceiros SAP (Add-ons:  NFe Eletrônica, Livros Fiscais, Speds e replicadores de dados)</br>
-   						</div>
+							• Abertura de chamados junto aos Parceiros SAP (Add-ons: NFe Eletrônica, Livros Fiscais, Speds e replicadores de
+							dados)</br>
+						</div>
 
-   					</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-   				</div> <!-- /timeline-wrap -->   			
+				</div> <!-- /timeline-wrap -->
 
-   			</div> <!-- /col-twelve -->
+			</div> <!-- /col-twelve -->
 
-   		</div> <!-- /resume-timeline -->
+		</div> <!-- /resume-timeline -->
 
-   		<div class="row resume-timeline">
+		<div class="row resume-timeline">
 
-   			<div class="col-twelve resume-header">
+			<div class="col-twelve resume-header">
 
-   				<h2>Education</h2>
+				<h2>Education</h2>
 
-   			</div> <!-- /resume-header -->
+			</div> <!-- /resume-header -->
 
-   			<div class="col-twelve">
+			<div class="col-twelve">
 
-   				<div class="timeline-wrap">
+				<div class="timeline-wrap">
 
-   					<div class="timeline-block">
+					<div class="timeline-block">
 
-   						<div class="timeline-ico">
-   							<i class="fa fa-graduation-cap"></i>
-   						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
 
-   						<div class="timeline-header">
-   							<h3>Bacharelado</h3>
-   							<p>Janeiro 2010 - Dezembro 2015</p>
-   						</div>
+						<div class="timeline-header">
+							<h3>Bacharelado</h3>
+							<p>Janeiro 2010 - Dezembro 2015</p>
+						</div>
 
-   						<div class="timeline-content">
-   							<h4><a href="https://www.fiap.com.br/">FIAP - Faculdade de Informática e Administração Paulista</a></h4>
-   							<p>Engenharia da Computação</p>
-   						</div>
+						<div class="timeline-content">
+							<h4><a href="https://www.fiap.com.br/">FIAP - Faculdade de Informática e Administração Paulista</a></h4>
+							<p>Engenharia da Computação</p>
+						</div>
 
-   					</div> <!-- /timeline-block -->
+					</div> <!-- /timeline-block -->
 
-   					<div class="timeline-block">
+					<div class="timeline-block">
 
-   						<div class="timeline-ico">
-   							<i class="fa fa-graduation-cap"></i>
-   						</div>
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
 
-   						<div class="timeline-header">
-   							<h3>Ensino Médio Técnico</h3>
-   							<p>Fevereiro 2007 - Dezembro 2009</p>
-   						</div>
+						<div class="timeline-header">
+							<h3>Ensino Médio Técnico</h3>
+							<p>Fevereiro 2007 - Dezembro 2009</p>
+						</div>
 
-   						<div class="timeline-content">
-   							<h4><a href="http://portal.fieb.edu.br/">ITB - Instituto Técnico de Barueri – Prof. Munir José</a></h4>
-   							<p>Ensino Médio Técnico com ênfase em Redes de Computadores</p>
-   						</div>
+						<div class="timeline-content">
+							<h4><a href="http://portal.fieb.edu.br/">ITB - Instituto Técnico de Barueri – Prof. Munir José</a></h4>
+							<p>Ensino Médio Técnico com ênfase em Redes de Computadores</p>
+						</div>
 
-   				</div> <!-- /timeline-wrap -->   			
+					</div> <!-- /timeline-wrap -->
 
-   			</div> <!-- /col-twelve -->
+				</div> <!-- /col-twelve -->
 
-   		</div> <!-- /resume-timeline -->
+			</div> <!-- /resume-timeline -->
 
-   	</section> <!-- /features -->
+	</section> <!-- /features -->
 
-   <!-- contact
+	<!-- contact
    	================================================== -->
-   	<section id="contact">
+	<section id="contact">
 
-   		<div class="row section-intro">
-   			<div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<div class="en">
+					<h5>Contact</h5>
+					<h1>I'd Love To Hear From You.</h1>
 
-   				<h5>Contact</h5>
-   				<h1>I'd Love To Hear From You.</h1>
+					<p class="lead">Enjoy!</p>
+				</div>
+				<div class="br">
+					<h5>Contato</h5>
+					<h1>Adoraria ouvir de você.</h1>
 
-   				<p class="lead">Enjoy!</p>
+					<p class="lead">:)</p>
+				</div>
 
-   			</div> 
-   		</div> <!-- /section-intro -->
+			</div>
+		</div> <!-- /section-intro -->
 
-   		<div class="row contact-info">
+		<div class="row contact-info">
 
-   			<div class="col-four tab-full">
+			<div class="col-four tab-full">
 
-   				<div class="icon">
-   					<i class="icon-pin"></i>
-   				</div>
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+				<div class="en">
+					<h5>Where to find me</h5>
 
-   				<h5>Where to find me</h5>
+					<p>
+						São Paulo, Brazil<br>
+					</p>
+				</div>
+				<div class="br">
+					<h5>Onde me encontrar</h5>
 
-   				<p>
-   					São Paulo, Brasil<br>
-   				</p>
+					<p>
+						São Paulo, Brasil<br>
+					</p>
+				</div>
+			</div>
 
-   			</div>
+			<div class="col-four tab-full collapse">
 
-   			<div class="col-four tab-full collapse">
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+				<div class="en">
+					<h5>Email Me At</h5>
+				</div>
+				<div class="br">
+					<h5>Email</h5>
+				</div>
+				<p>andrelabliuk@gmail.com</p>
+			</div>
 
-   				<div class="icon">
-   					<i class="icon-mail"></i>
-   				</div>
+			<div class="col-four tab-full">
 
-   				<h5>Email Me At</h5>
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+				<div class="en">
+					<h5>Call Me At</h5>
+				</div>
+				<div class="br">
+					<h5>Celular</h5>
+				</div>
 
-   				<p>andrelabliuk@gmail.com</p>
+				<p>(+55) 11 96770 8829</p>
 
-   			</div>
+			</div>
 
-   			<div class="col-four tab-full">
+		</div> <!-- /contact-info -->
 
-   				<div class="icon">
-   					<i class="icon-phone"></i>
-   				</div>
-
-   				<h5>Call Me At</h5>
-
-   				<p>(+55) 11 96770 8829</p>
-
-   			</div>
-
-   		</div> <!-- /contact-info -->
-
-   	</section> <!-- /contact -->
+	</section> <!-- /contact -->
 
 
-   <!-- footer
+	<!-- footer
    	================================================== -->
 
-   	<footer>
-   		<div class="row">
+	<footer>
+		<div class="row">
 
-   			<div class="col-six tab-full pull-right social">
+			<div class="col-six tab-full pull-right social">
 
-   				<ul class="footer-social">        
-   					<li><a href="https://www.linkedin.com/in/labliuk/"><i class="fa fa-linkedin"></i></a></li>
-   					<li><a href="https://github.com/alabliuk"><i class="fa fa-github"></i></a></li>
-   				</ul> 
+				<ul class="footer-social">
+					<li><a href="https://www.linkedin.com/in/labliuk/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/alabliuk"><i class="fa fa-github"></i></a></li>
+				</ul>
 
-   			</div>
+			</div>
 
-   			<div class="col-six tab-full">
-   				<div class="copyright">
-   					<span>© Copyright Kards 2016.</span> 
-   					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>	         	
-   				</div>		                  
-   			</div>
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Kards 2016.</span>
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+				</div>
+			</div>
 
-   			<div id="go-top">
-   				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-   			</div>
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
 
-   		</div> <!-- /row -->     	
-   	</footer>  
+		</div> <!-- /row -->
+	</footer>
 
-   	<div id="preloader"> 
-   		<div id="loader"></div>
-   	</div> 
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
 
-   <!-- Java Script
-   	================================================== --> 
-   	<script src="js/jquery-2.1.3.min.js"></script>
-   	<script src="js/plugins.js"></script>
-   	<script src="js/main.js"></script>
+	<!-- Java Script
+   	================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
-   </body>
+</body>
 
-   </html>
+</html>
