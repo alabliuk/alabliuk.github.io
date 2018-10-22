@@ -291,8 +291,8 @@
 })(jQuery);
 
 /*----------------------------------------------------- */
-  	/* Change Logo - Flags BR - US
-   ------------------------------------------------------- */ 
+/* Change Logo - Flags BR - US
+------------------------------------------------------- */ 
 
 function changeLogo(){
 	var lang = localStorage.getItem("lang");
@@ -319,3 +319,16 @@ function changeLang(){
 		$('.logo').attr('style', 'background-image: url(../alabliuk.github.io/images/flags/br.svg); background-repeat: no-repeat;');
 	}
 }
+
+/*----------------------------------------------------- */
+/* Data dinamica no trecho de apresentação
+------------------------------------------------------- */ 
+
+var anoAtual = new Date;
+var expTotal = anoAtual.getFullYear() - 2009;
+var expTotalDev = anoAtual.getFullYear() - 2013;
+
+document.getElementById("experienciaTotalEN").innerHTML = expTotal;
+document.getElementById("experienciaTotalDevEN").innerHTML = expTotalDev;
+document.getElementById("experienciaTotalBR").innerHTML = expTotal;
+document.getElementById("experienciaTotalDevBR").innerHTML = expTotalDev;
