@@ -16,9 +16,9 @@ function js_onSuccess() {
 function js_onError(error) {
     var lang = localStorage.getItem("lang");
     if (lang == "en") {
-        document.getElementById("js_send").innerHTML = "Ops! There was an error sending the message";
+        document.getElementById("js_send").innerHTML = "Oops! There was an error sending the message";
     } else {
-        document.getElementById("js_send").innerHTML = "Ops! Houve algum erro ao enviar da mensagem";
+        document.getElementById("js_send").innerHTML = "Oops! Houve algum erro ao enviar da mensagem";
     }
     sendButton.disabled = false;
 }
