@@ -18,7 +18,7 @@ function js_onError(error) {
     if (lang == "en") {
         document.getElementById("js_send").innerHTML = "Oops! There was an error sending the message";
     } else {
-        document.getElementById("js_send").innerHTML = "Oops! Houve algum erro ao enviar da mensagem";
+        document.getElementById("js_send").innerHTML = "Oops! Houve algum erro ao enviar a mensagem";
     }
     sendButton.disabled = false;
 }
