@@ -291,7 +291,7 @@
 })(jQuery);
 
 /*----------------------------------------------------- */
-/* Change Logo - Flags BR - US
+/* Change Logo - Flags BR - US - Regionalização
 ------------------------------------------------------- */ 
 
 function changeLogo(){
@@ -317,6 +317,14 @@ function changeLang(){
 		$("#language").attr('lang', "br");
 		$('.logo').attr('style', null);
 		$('.logo').attr('style', 'background-image: url(../alabliuk.github.io/images/flags/br.svg); background-repeat: no-repeat;');
+
+		//CONTATO
+		document.getElementById("contactName").placeholder = "Nome";
+		document.getElementById("contactEmail").placeholder = "Email";
+		document.getElementById("contactSubject").placeholder = "Assunto";
+		document.getElementById("contactMessage").placeholder = "Mensagem";
+		document.getElementById("js_send").innerHTML = "Enviar";
+
 	}
 }
 

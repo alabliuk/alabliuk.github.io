@@ -604,18 +604,48 @@
 				<div class="en">
 					<h5>Contact</h5>
 					<h1>I'd Love To Hear From You.</h1>
-
 					<p class="lead">Enjoy!</p>
 				</div>
 				<div class="br">
 					<h5>Contato</h5>
-					<h1>Adoraria ouvir de você.</h1>
-
-					<p class="lead">:)</p>
+					<h1>Envie uma mensagem.</h1>
+					<p class="lead"></p>
 				</div>
 
 			</div>
 		</div> <!-- /section-intro -->
+
+		<!-- SEND E-MAIL -->
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				<!-- form -->
+				<form id="javascript_form">
+					<fieldset>
+
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required pattern="\w*@\w*\.\w*\.?\w*">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform" id="js_send">Submit</button>
+						</div>
+					</fieldset>
+				</form> <!-- Form End -->
+			</div>
+		</div>
+
+		<!-- /SEND E-MAIL -->
 
 		<div class="row contact-info">
 
@@ -713,6 +743,7 @@
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/email.js"></script>
 
 </body>
 
